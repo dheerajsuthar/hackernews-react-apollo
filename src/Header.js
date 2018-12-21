@@ -11,7 +11,9 @@ class Header extends Component {
 
         return (
             <Navbar>
-                <Navbar.Header>LinkShare</Navbar.Header>
+                <Navbar.Header>
+                    <Navbar.Brand>LinkShare</Navbar.Brand>
+                </Navbar.Header>
                 <Nav>
                     <NavItem componentClass={Link} href="/" to="/">
                         Home

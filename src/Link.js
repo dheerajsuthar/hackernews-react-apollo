@@ -3,9 +3,10 @@ import React from 'react'
 function Link(props) {
     return (
         <div>
-            <div>
-                {props.link.description} ({props.link.url}) -- <i>{props.link.postedBy.name}</i>
-                </div>
+            <h4>{props.link.url}</h4>
+            <em>{props.link.description}</em>
+            <small class="pull-right">by {props.link.postedBy.name}
+            </small>
         </div>
     )
 }
